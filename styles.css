@@ -3,44 +3,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Comic Sans MS', sans-serif; /* Go for a playful, retro font */
+    font-family: 'Garamond', serif; /* Classic, old-style serif font */
 }
 
 /* Body styling */
 body {
-    background-color: #ffe0b3; /* A warm, nostalgic background color */
-    color: #333333;
+    background-color: #f4efe8; /* Light cream, like aged paper */
+    color: #3e2723; /* Dark brown text */
 }
 
 /* Navigation styling */
 header {
-    background-color: #ff6392; /* Hot pink for that 90s pop */
+    background-color: #b89f89; /* Warm, neutral brown */
     text-align: center;
     padding: 20px;
 }
 
 nav a {
-    color: #ffffff;
+    color: #3e2723;
     text-decoration: none;
     font-weight: bold;
     padding: 0 15px;
+    font-family: 'Garamond', serif;
 }
 
 nav a:hover {
-    color: #ffd700; /* Gold hover effect */
+    color: #d8a878; /* Lighter tan for hover effect */
 }
 
 /* Header and tagline */
 header h1 {
     font-size: 2.5rem;
-    color: #333333;
-    margin-top: 15px;
+    color: #3e2723;
+    margin-top: 10px;
     font-weight: bold;
 }
 
 .tagline {
     font-size: 1.2rem;
-    color: #ffffff;
+    color: #fff5e1;
     font-style: italic;
 }
 
@@ -50,27 +51,27 @@ header h1 {
     align-items: center;
     justify-content: center;
     padding: 40px;
-    background: linear-gradient(135deg, #ffda77, #ff8c94); /* Funky gradient */
+    background-color: #d1c3b1; /* Muted beige */
     position: relative;
 }
 
 .hero-image {
     width: 50%;
-    border: 5px solid #ff6392; /* Polaroid-style border */
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Adds depth */
+    border: 3px solid #b89f89; /* Frame-like border */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
 }
 
 .hero-text {
     padding: 20px;
     max-width: 500px;
-    background-color: #333333;
-    color: #ffd700; /* Bright gold text */
+    background-color: #e7dcc6;
+    color: #3e2723;
     margin-left: -50px;
-    transform: rotate(-2deg);
+    transform: rotate(-1deg); /* Slight rotation for that scrapbook feel */
 }
 
 .hero-text h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 10px;
 }
 
@@ -81,8 +82,8 @@ header h1 {
 
 /* Footer styling */
 footer {
-    background-color: #333333;
-    color: #ffffff;
+    background-color: #3e2723;
+    color: #f4efe8;
     text-align: center;
     padding: 15px;
     font-size: 0.9rem;
