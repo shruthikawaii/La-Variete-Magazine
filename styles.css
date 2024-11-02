@@ -1,0 +1,89 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', sans-serif; /* Go for a playful, retro font */
+}
+
+/* Body styling */
+body {
+    background-color: #ffe0b3; /* A warm, nostalgic background color */
+    color: #333333;
+}
+
+/* Navigation styling */
+header {
+    background-color: #ff6392; /* Hot pink for that 90s pop */
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+nav a:hover {
+    color: #ffd700; /* Gold hover effect */
+}
+
+/* Header and tagline */
+header h1 {
+    font-size: 2.5rem;
+    color: #333333;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-style: italic;
+}
+
+/* Hero section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #ffda77, #ff8c94); /* Funky gradient */
+    position: relative;
+}
+
+.hero-image {
+    width: 50%;
+    border: 5px solid #ff6392; /* Polaroid-style border */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Adds depth */
+}
+
+.hero-text {
+    padding: 20px;
+    max-width: 500px;
+    background-color: #333333;
+    color: #ffd700; /* Bright gold text */
+    margin-left: -50px;
+    transform: rotate(-2deg);
+}
+
+.hero-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+}
