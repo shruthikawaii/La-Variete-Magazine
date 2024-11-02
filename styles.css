@@ -1,90 +1,144 @@
-/* Reset some default styling */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Garamond', serif; /* Classic, old-style serif font */
+    font-family: 'Georgia', serif; /* Vintage-look serif font */
 }
 
-/* Body styling */
 body {
-    background-color: #f4efe8; /* Light cream, like aged paper */
-    color: #3e2723; /* Dark brown text */
+    background-color: #f4efe8; /* Paper-like cream background */
+    color: #3e2723; /* Deep brown text */
 }
 
-/* Navigation styling */
+/* Header */
 header {
-    background-color: #b89f89; /* Warm, neutral brown */
-    text-align: center;
+    background-color: #a3876a; /* Muted brown */
     padding: 20px;
+    text-align: center;
+    color: #f4efe8;
 }
 
 nav a {
-    color: #3e2723;
+    color: #f4efe8;
     text-decoration: none;
+    margin: 0 15px;
     font-weight: bold;
-    padding: 0 15px;
-    font-family: 'Garamond', serif;
 }
 
-nav a:hover {
-    color: #d8a878; /* Lighter tan for hover effect */
+.header-content {
+    padding: 20px;
+    text-align: center;
 }
 
-/* Header and tagline */
-header h1 {
-    font-size: 2.5rem;
-    color: #3e2723;
-    margin-top: 10px;
-    font-weight: bold;
+.header-content h1 {
+    font-size: 2.8rem;
+    color: #f4efe8;
 }
 
 .tagline {
-    font-size: 1.2rem;
-    color: #fff5e1;
     font-style: italic;
+    color: #fff2df;
 }
 
-/* Hero section */
+/* Hero Section */
 .hero {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 40px;
-    background-color: #d1c3b1; /* Muted beige */
+    padding: 50px;
+    background-color: #e7dcc6; /* Soft beige background */
     position: relative;
 }
 
 .hero-image {
-    width: 50%;
-    border: 3px solid #b89f89; /* Frame-like border */
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    width: 45%;
+    border: 3px solid #d2a582;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .hero-text {
     padding: 20px;
-    max-width: 500px;
-    background-color: #e7dcc6;
-    color: #3e2723;
-    margin-left: -50px;
-    transform: rotate(-1deg); /* Slight rotation for that scrapbook feel */
+    background-color: #f0e1c8;
+    margin-left: -30px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transform: rotate(-2deg); /* Scrapbook look */
 }
 
 .hero-text h2 {
+    font-size: 2rem;
+    color: #3e2723;
+    margin-bottom: 10px;
+}
+
+.hero-text button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #a3876a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* About Section */
+.about {
+    padding: 40px;
+    text-align: center;
+    background-color: #f4efe8;
+}
+
+.about h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
 }
 
-.hero-text p {
-    font-size: 1rem;
-    line-height: 1.5;
+.about p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
 }
 
-/* Footer styling */
+/* Featured Articles */
+.featured {
+    padding: 40px;
+    text-align: center;
+    background-color: #d9cab3;
+}
+
+.featured h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.article-card {
+    display: inline-block;
+    width: 300px;
+    margin: 15px;
+    background-color: #f0e6d2;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+
+.article-card img {
+    width: 100%;
+    border-bottom: 2px solid #b89f89;
+}
+
+.article-card h4 {
+    margin-top: 15px;
+    font-size: 1.4rem;
+}
+
+/* Footer */
 footer {
     background-color: #3e2723;
     color: #f4efe8;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
+}
+
+.social-links a {
+    color: #f4efe8;
+    margin: 0 10px;
+    text-decoration: none;
     font-size: 0.9rem;
 }
